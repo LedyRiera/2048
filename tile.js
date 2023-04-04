@@ -27,9 +27,9 @@ export class Tile {
 
    waitForTransitionEnd() {
       return new Promise(resolve => {
-        this.tileElement.addEventListener(
-          "transitionend", resolve, { once: true });
+         this.tileElement.addEventListener(
+         "transitionend", resolve, { once: true });
       });
-    }
+   }
 
 }
